@@ -11,7 +11,7 @@ import path from 'path';
 
 console.log(path.extname("./index.html"))
 
-import { generateLovePercent } from "./features.js";
+import { generateLovePercent } from "../features.js";
 console.log(generateLovePercent());
 
 import fs from "fs";
